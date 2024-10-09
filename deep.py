@@ -7,7 +7,7 @@ def main():
         print("Yes")
     else:
         print("No")
-# function will evaluate the answer using if statements
+# function will evaluate the answer using a if statemetn with condensed or statements
 def correct_answer(a):
     return True if a == "42" or a == "forty two" or a == "forty-two" else False
 main()
